@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> welcome to Royal restaurant</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.avif">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div >
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <img src="images/logo1.avif" class="logo" alt="logo">
+        <a class="navbar-brand" href="#">
+          <h2>Royal Restaurant</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#foodmenu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#food">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#feedback">Feedback</a>
+            </li>
+                     
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success mr-3" type="submit">Search</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Nav bar conteiner end -->
+    <!-- Carousel Container start -->
+    <div class="container mt-3" id="foodmenu">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators text-white">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/item4.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouseltxt">Crispy Dosa</h5>
+              <p class="carouseltxt">Start your day with a crispy, savory dose of happiness.
+                 Experience the brilliant blend of south indian flavors.
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouseltxt">Burger</h5>
+              <p class="carouseltxt">Life is too short to miss  an beautiful things like a double cheese burger.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/carousel3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouseltxt">Paratha</h5>
+              <p class="carouseltxt">paratha made with mother's homemade recipe hygiene and homestyle cooking<br>
+                Bliss on plate .</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel4.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouseltxt">Biryani</h5>
+              <p class="carouseltxt">Biryani is nothing but, just a state of happiness <br>delicious briyani.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouseltxt">Ice-cream</h5>
+              <p class="carouseltxt">It's ice cream time.Enjoy the tasty ice-cream with delicious flavours at lowest price .</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon carouseltxt" aria-hidden="true"></span>
+            <span class="visually-hidden carouseltxt">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+      <!-- Carousel end -->
+
+
+      <!-- gallery start -->
+      <div class="container mt-2" id="food">
+        <h1 class="text-center">Types Of Foods</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="images/food9.avif" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+            <img src="images/dosa.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="images/food5.avif" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+            <img src="images/icecream.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="images/food6.avif" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+            <img src="images/food10.avif" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+          </div>
+        </div>
+      </div>
+      <!--- gallery end-->
+
+
+      <!-- About us start -->
+      <div class="container mt-2" id="about">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-6">
+            <div class="about-img">
+              <img src="images/menu1.jpeg" style="width: 100%;     border-radius: 25px; height:400px" alt="food" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 p-4">
+            <div class="about-text">
+              <h1 class="text-center mb-5">About Us</h1>
+            </div>
+            <h2>We've been making healthy food last for 10 years</h2>
+            <p style="color:black"> Need food and a good place to eat? </p>
+            <p> Welcome to our humble place where you can eat good food peacefully.</p>
+            <p> We see our customers as invited guests to a party, and we are the hosts.</p>
+            <p> It’s our job every day to make every important aspect of the customer experience a little bit better.<br>
+            Kindly visit to our restaurant to taste the marvelous food<br> <br>
+            PLEASE VISIT TO--> NO.650, 17th Main, 6th Block Koramangla, Bengaluru ,Karnataka-560024 </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- About us end -->
+      <!-- Customers say acrd start -->
+      <div class="container mt-2 mb-2" id="feedback">
+        <h1 class="text-center">What Our Customers Say</h1>
+        <div class="row">
+          <div class="card col-md-3">
+            <img class="card-img-top customers" src="images/cus5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <p class="card-text"> Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious. <br> I love that you get a lot of food as well for the price <br> I am definitely going back. </p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <img class="card-img-top customers" src="images/cus2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <p class="card-text"> Delicious high quality plates, selection of wines and great service. <br> We tried all their entrees, one of their desserts, and everything was de-li-cious. Highly recommended. </p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <img class="card-img-top customers" src="images/cus6.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <p class="card-text"> Delicious high quality plates, selection of wines and great service. <br> We tried all their entrees, one of their desserts, and everything was de-li-cious. Highly recommended. </p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <img class="card-img-top customers" src="images/cus4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <p class="card-text"> We were here on a hungry Sunday morning, they served us keema burger, english breakfast, tomato soup, chicken cream soup. <br> Thankful for such yummy breakfast. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Customers say acrd end -->
+      <!-- Contact us Container starts -->
+      <div class="container mt-2 mb-4" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-12 mt-2">
+            <img src="images/contact-us.png" alt="contact-us" style="width: 100%; border-radius: 15px;
+            height: 400px;
+        " />
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea class="form-control" id="exampleInputPassword1" rows="8" placeholder="Leave your commands"></textarea>
+              </div>
+              <div class="text-center mt-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Contact us container ends -->
+      <div class="footer">
+        <h2 class="text-center">Restaurant &copy; all rights reserved</h2>
+       
+      </div>
+      <!-- .................../ JS Code for smooth scrolling /...................... -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+</html>
+</body>
+</html>

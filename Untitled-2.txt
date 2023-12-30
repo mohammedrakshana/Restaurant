@@ -1,0 +1,84 @@
+
+       
+        <div class="food-menu-container container">
+            <h2 class="food-menu-heading">Food Menu</h2>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/item4.jpeg" alt=""  />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 1</h2>
+                    <p>
+                        The company itself is a very successful company.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/menu7.webp" alt="error"   />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 2</h2>
+                    <p>
+                        Amaazing food! The whole experience from start to finish is great waitress is always so friendly and kind.</p><br>
+                      <p> The food can’t get better and the prices are fair for the portion size. Always a great spot to get great food</p><br>
+                    
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/menu9.webp" alt=""   />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 3</h2>
+                    <p> Amaazing food! The whole experience from start to finish is great waitress is always so friendly and kind.</p><br>
+                    <p> The food can’t get better and the prices are fair for the portion size. Always a great spot to get great food </p><br>
+                
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/item1.jpeg" alt=""   />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 4</h2>
+                    <p>
+                        Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious. </p><br>
+                       <p> I love that you get a lot of food as well for the price.</p><br>
+                        <p> It’s definitely not like other expensive restaurants and you only get a small amount of food. I am definitely going back
+                    </p><br>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/item2.jpeg" alt=""  />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 5</h2>
+                    <p>
+                        The menus options are an excellent value. The dining experience overall is very pleasant. I highly recommend this restaurant.
+                    </p><br>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="images/item3.jpeg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Food Menu Item 6</h2>
+                    <p>
+                        Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious.<br>
+                        I love that you get a lot of food as well for the price. <br>
+                        It’s definitely not like other expensive restaurants and you only get a small amount of food. I am definitely going back.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p><br><br><br>
+                </div>
+            </div>
+        </div>
+   
